@@ -36,8 +36,8 @@ function addTask(task){
 
         input.value = ""; // remove a value
     
-    }
-}
+    };
+};
 
 // delete task function 
 
@@ -46,5 +46,5 @@ function deleteTask () {
 
     document.querySelectorAll('li').forEach((element) => {
         element.classList.contains('delete_task') ? element.remove() : element; //this will remove the task(s)
-    })
-}
+    });
+};
